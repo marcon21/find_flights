@@ -1,0 +1,4 @@
+toolz
+colorama
+ryanair-py
+streamlit
