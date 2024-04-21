@@ -2,3 +2,5 @@ toolz
 colorama
 ryanair-py
 streamlit
+airportsdata
+pandas
