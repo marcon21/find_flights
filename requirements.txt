@@ -4,3 +4,4 @@ ryanair-py
 streamlit
 airportsdata
 pandas
+matplotlib
