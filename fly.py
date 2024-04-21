@@ -91,13 +91,13 @@ def find_flights(start, end, start_date, delta_days):
                     airport=s,
                     date_from=start_date + timedelta(days=d),
                     date_to=start_date + timedelta(days=d),
-                    departure_time_from="08:00",
-                    departure_time_to="23:00",
+                    # departure_time_from="08:00",
+                    # departure_time_to="23:00",
                     destination_airport=e,
                 )
                 if flights:
-
-                    possible_flights.append(flights[0])
+                    for f in flights:
+                        possible_flights.append(f)
                 else:
                     continue
                     # print(f"No flights from {s} to {e}")
